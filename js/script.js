@@ -9,6 +9,7 @@ function save(){
     var old_data = JSON.parse(localStorage.getItem('data'));
     old_data.push(new_data);
     
+	
     // svae the old + new data to local storage
     localStorage.setItem('data', JSON.stringify(old_data));
 }
