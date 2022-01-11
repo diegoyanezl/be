@@ -1,8 +1,28 @@
 {
-  "devDependencies": {
-    "g-sheets-api": "^2.1.2"
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "auto": "nodemon index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfl2022/be.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nfl2022/be/issues"
+  },
+  "homepage": "https://github.com/nfl2022/be#readme",
   "dependencies": {
-    "googleapis": "^39.2.0"
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "googleapis": "^92.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
